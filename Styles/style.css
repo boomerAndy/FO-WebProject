@@ -1,0 +1,15 @@
+body
+{
+    margin: 0;
+}
+header
+{
+    background-image: url(../Images/2frank%20%20ocean%20%20by%20andrew%20jackson.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 721px;
+}
+/*#bigPic
+{
+    width: 100%;
+}
