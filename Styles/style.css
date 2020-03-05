@@ -1,3 +1,6 @@
+html{
+    background-color: #333;
+}
 @font-face
 {
     font-family: Helvetica;
@@ -9,47 +12,17 @@
     border: 0;
     outline: 0;
 }
-html, body {
-margin: 0 auto;
-}
-body
-{
-    margin: 0;
-    background-color: white;
-    
-}
 #logo{
     height: 29px; 
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 14px 16px;
     margin-top: 0;
-    
-
     float:left; 
-    margin-right: 1px;
-}
-.FrankBG{
-    margin: 0;
-    padding: 0px;
-}
-
-h2{
-    font-family: Helvetica;
-    text-align: center;
-    font-weight: bold;
-}
-p{
-    font-family: Helvetica;
-    text-align: center;
-    font-weight: 100;
 }
 
 /* Add a black background color to the top navigation */
 nav ul li {
     display: inline;
-  background-color: white;
+    background-color: white;
   overflow: hidden;
     margin: 0px;
 }
@@ -61,7 +34,7 @@ nav ul li a{
   font-family: Helvetica;
     font-weight: bold;
   float: left;
-  color: #333;
+  color: white;
   text-align: center;
   padding-left: 14px;
     padding-right: 14px;
@@ -73,7 +46,7 @@ nav ul li a{
 
 /* Change the color of links on hover */
 nav ul li a:hover {
-  background-color: #ddd;
+  background-color: #333;/*#ddd*/
   color: #4dc1ff;
 }
 
@@ -86,7 +59,28 @@ nav ul li a:active {
 .active {
   background-color: #4dc1ff;
   color: #333;
-}*/
+}
+.FrankBG{
+    margin: 0;
+    padding: 0px;
+}
 
-
-
+h1{
+    font-size: 40px;
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 17px;
+}
+p{
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+aside{
+    float: right;
+    margin: 80px 60px;
+    
+}
