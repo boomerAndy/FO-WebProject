@@ -79,8 +79,69 @@ p{
     font-weight: 100;
     color: white;
 }
+
 aside{
     float: right;
     margin: 80px 60px;
     
+}
+
+.EarlyLife {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+}
+#EarlyLifeImage 
+{
+    
+    float: left;
+    width: 40%;
+    padding: 50px;
+    
+}
+
+
+
+h2 {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    ttransform: translate(-50%, -50%);
+    
+}
+
+footer{
+    
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;    
+    text-align: center;
+}
+footer ul
+{
+    font-size: 20px;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+footer ul li a{
+        color: white;
+    text-decoration: none;
+}
+small
+{
+    text-align: center;
+    color: white;
 }
