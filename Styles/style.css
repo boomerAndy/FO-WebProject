@@ -18,13 +18,16 @@ html{
     margin-top: 0;
     float:left; 
 }
-
+nav{
+    box-shadow: 10px 10px 5px white;
+}
 /* Add a black background color to the top navigation */
 nav ul li {
     display: inline;
     background-color: white;
   overflow: hidden;
     margin: 0px;
+    
 }
 
 /* Style the links inside the navigation bar */
@@ -52,8 +55,12 @@ nav ul li a:hover {
 
 /* Add a color to the active/current link */ 
 nav ul li a:active {
-  background-color: #4dc1ff;
-  color: #333;
+    background-color: #333;
+    color: #4dc1ff;
+    transition: transform .5s ease;
+    
+    
+    transform: scale(.8);
 }
 
 .active {
@@ -80,47 +87,163 @@ p{
     color: white;
 }
 
-aside{
-    float: right;
-    margin: 80px 60px;
-    
-}
-
-.EarlyLife {
-    position: relative;
-    text-align: center;
-    color: white;
-    font-family: Helvetica;
-}
-#EarlyLifeImage 
-{
-    
+.column {
     float: left;
-    width: 40%;
-    padding: 50px;
+}
+.EarlyLifeContainer {
+    position: relative;
+    height: 394px; /* [1.1] Set it as per your need */
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+
+}
+.EarlyLifeImg{
+    width: 700px;
+    float: left;
+  transition: transform .5s ease;
+  margin: 1px auto;
+}
+.EarlyLifeImg:hover {
+    -webkit-transform: scale(.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    width: 700px;
     
 }
-
-
-
-h2 {
+.EarlyLifeText
+{    
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
     position: absolute;
-    top: 200px;
-    left: 300px;
-    ttransform: translate(-50%, -50%);
-    
+    top: 175px;
+    left: 245px;
+    background: rgba(0, 0, 0, 0.7);    
+    color: white;
+    padding: 10px 20px;
+}
+
+.AlbumContainer {
+    position: relative;
+    height: 394px; /* [1.1] Set it as per your need */
+    width: 700px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.AlbumsImg{
+    position: absolute;
+    width: 700px;
+    /*float: right;*/
+  transition: transform .5s ease;
+  margin: 1px auto;
+}
+.AlbumsImg:hover{
+    -webkit-transform: scale(.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    width: 700px;
+}
+.AlbumsText{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 175px;
+    left: 270px;
+    background: rgba(0, 0, 0, 0.7);    
+    color: white;
+    padding: 10px 20px;
+}
+
+.FutureContainer {
+    position: relative;
+    height: 394px; /* [1.1] Set it as per your need */
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+
+}
+
+.FutureImg {
+    position: absolute;
+    width: 700px;
+    /*float: right;*/
+  transition: transform .5s ease;
+  margin: 1px auto;
+
+}
+.FutureImg:hover{
+    -webkit-transform: scale(.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    width: 700px;    
+}
+
+.FutureText {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 175px;
+    left: 270px;
+    background: rgba(0, 0, 0, 0.7);    
+    color: white;
+    padding: 10px 20px;    
+}
+
+.GalleryContainer {
+    position: relative;
+    height: 394px; /* [1.1] Set it as per your need */
+    width: 700px;
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */    
+}
+
+.GalleryImg {
+    position: absolute;
+    width: 700px;
+    /*float: right;*/
+  transition: transform .5s ease;
+  margin: 1px auto;    
+}
+.GalleryImg:hover{
+    -webkit-transform: scale(.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    width: 700px;    
+}
+
+.GalleryText {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 175px;
+    left: 270px;
+    background: rgba(0, 0, 0, 0.7);    
+    color: white;
+    padding: 10px 20px;    
 }
 
 footer{
-    
+    font-family: Helvetica;
     clear: both;
-    border: 1px solid orange;
+    border: 1px solid #4dc1ff;
     padding: 0;
     margin: 0;
     position: relative;
     bottom: 0px;
     width: 100%;
-    background-color: grey;    
+    background-color: #434543;    
     text-align: center;
 }
 footer ul
@@ -145,3 +268,4 @@ small
     text-align: center;
     color: white;
 }
+
