@@ -6,16 +6,33 @@
 
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8"   />
     <meta name="description" content="Frank Ocean project">
     <meta name="keywords"   content="Frank Ocean, Blond, Blonde, Channel Orange, Nostalgia Ultra, Endless">
     <meta name="author"    content="Andrew Jackson">
     <title>Frank Ocean by Andrew Jackson</title>
-    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
     </head>
 <body>
+<!--This is a script I was using to determine the width of each window for media queries, will be removed in final submission.
+<p>Click the button to display this frame's height and width.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> The innerWidth and innerHeight properties are not supported in IE8 and earlier.</p>
+
+<p id="demo"></p>
+    <script>
+function myFunction() {
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+    var LeftM = (w - 650) / 2;
+  document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
+}
+</script>-->
+
     <header>
-        <img src="Images/FO-WEBLOGO-4dc1ffCYAN-FULLRES.png" alt="logo" id="logo" >
+        <img class="logo" src="Images/FO-WEBLOGO-4dc1ffCYAN-FULLRES.png" alt="Blogo" >
         <nav>
             <ul>
                 <li> <a href="index.html">Home</a></li> 
@@ -23,61 +40,54 @@
                 <li> <a href="Albums.html">Albums</a></li>
                 <li> <a href="Future.html">Future</a></li>
                 <li> <a href="Gallery.html">Gallery</a></li>
-                
+            
             </ul>
         </nav>
       </header>
     <main>
-    <section class="FrankBG">
-        <img src="Images/frank%20%20ocean%20%20by%20andrew%20jackson-HomePage.png" alt="FrankbyAndrew" width="100%">
-        </section>
-    <h2>Welcome to my Home page.</h2>    
+        <br><br><br>
+    <h1>Early Life.</h1>    
             <section class="paragraphExplain">
                 <p>
-                    This is a website showcasing Frank Ocean’s early life, his albums, 
-                    <br>
-                    the cultural impact of said albums, and his plans for the future.
-                    <br>
-                    Click the links below to learn more.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-            </section>
- 
-
-        <section>
-        <aside>
-        <h2>Good Foods</h2>
-                <ol>
-                <li>Apples</li>
-                <li>Oranges</li>
-                <li>Pears</li>
-                <li>Grapefruit</li>
-                <li>Aubergines</li>
-                <li>Asparagus</li>
-                <li>AVocado</li>
-                <li>Beetroot</li>
-                <li>Broad bean</li>
-                <li>Broccoli</li>    
-                <li>Carrot</li>
-                <li>Blackcurrants</li>
-                <li>Bluberries</li>
-                <li>Strawberry</li>
-                <li>Blackberry</li>
-                <li>Lemon</li>
-                <li>etc</li>
-                </ol>
-    </aside>
-    </section>
-
+            </section>    
+        <section class="column">
+        <section class="EarlyLifeContainer">
+            <a href="EarlyLife.html"> <img class="ImageContainer" src="Images/frankandTyler.jpg" alt="EarlyLife"></a>
+            <section class="EarlyLifeText">Early Life</section>
+        </section></section>
+        
+        <section class="column">
+        <section class="AlbumContainer">
+            <a href="Albums.html"><img class="ImageContainer" src="Images/7kLfNE1ElSih2bCu0Oo5Jn-JzWVHWPCUjvTofjIxkHs.jpg" alt="Albums"></a>
+            <section class="AlbumsText">Albums</section>
+        </section></section>
+        
+        <section class="column">
+        <section class="FutureContainer">
+            <a href="Future.html"><img class="ImageContainer" src="Images/ltysr2vczky311.jpg" alt="Future"></a>
+            <section class="FutureText">Future</section>
+        </section></section>
+        
+        <section class="column">
+        <section class="GalleryContainer">
+            <a href="Gallery.html"><img class="ImageContainer" src="Images/frank-ocean1.jpg" alt="Gallery"></a>
+            <section class="GalleryText">Gallery</section>
+            </section></section>
     </main>    
+
+ 
     <footer>
-        <br>
+        
         <ul>
             <li> <a href="index.html">Home</a></li>
-            <li> <a href="menu.html">Menu</a></li>
-            <li> <a href="video.html">Video Tour</a></li>
-            <li> <a href="audio.html">Sounds of Food</a></li>
+            <li> <a href="EarlyLife.html">Early Life</a></li>
+            <li> <a href="Albums.html">Albums</a></li>
+            <li> <a href="Future.html">Future</a></li>
+            <li> <a href="Gallery.html">Gallery</a></li>
         </ul>
-        <p>&copy; 2020 Sligo WholeFood</p>
+        <small>&copy; 2020 Andrew Jackson</small>
 </footer>
     </body>
 </html>

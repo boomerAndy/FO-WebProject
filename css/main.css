@@ -1,6 +1,5 @@
 html{
     background-color: #333;
-    width
 }
 @font-face
 {
@@ -60,9 +59,10 @@ nav ul li a:active {
   background-color: #4dc1ff;
   color: #333;
 }
-.FrankBG{
-    margin: 0;
-    padding: 0px;
+
+.FrankBGContainer {
+    width: 100%;
+    overflow: hidden;
 }
 h1{
     /*font-size: 40px;*/
@@ -78,10 +78,26 @@ p{
     font-weight: 100;
     color: white;
 }
+
 .column {
     float: left;
 }
-.EarlyLifeContainer {
+
+.ImageContainer{
+    width: 700px;
+    float: left;
+  transition: transform .5s ease, filter .5s ease-in-out;
+    filter: grayscale(100%);
+  /*margin: 0px auto;*/
+}
+.ImageContainer:hover {
+    -webkit-transform: scale(.5); /* Safari 3-8 */
+    filter: grayscale(0);
+    transform: scale(1.5);
+    width: 700px;
+    
+}
+.ImageBorder {
     border: 5px;
     border-style: solid;
     border-color: #4dc1ff;
@@ -95,20 +111,7 @@ p{
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 
 }
-.EarlyLifeImg{
-    width: 700px;
-    float: left;
-  transition: transform .5s ease, filter .5s ease-in-out;
-    filter: grayscale(100%);
-  /*margin: 0px auto;*/
-}
-.EarlyLifeImg:hover {
-    -webkit-transform: scale(.5); /* Safari 3-8 */
-    filter: grayscale(0);
-    transform: scale(1.5);
-    width: 700px;
-    
-}
+
 .EarlyLifeText{    
     font-family: Helvetica;
     font-size: 40px;
@@ -121,33 +124,6 @@ p{
     padding: 10px 20px;
 }
 
-.AlbumContainer {
-    border: 5px;
-    border-style: solid;
-    border-color: #4dc1ff;    
-    position: relative;
-    height: 394px; /* [1.1] Set it as per your need */
-    width: 650px;
-    margin-left: 6em;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 0px;
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-}
-
-.AlbumsImg{
-    width: 700px;
-    float: right;
-  transition: transform .5s ease, filter .5s ease-in-out;
-    filter: grayscale(100%);
-  /*margin: 1px auto;*/
-}
-.AlbumsImg:hover{
-    -webkit-transform: scale(.5); /* Safari 3-8 */
-    transform: scale(1.5);
-    filter: grayscale(0);
-    width: 700px;
-}
 .AlbumsText{
     font-family: Helvetica;
     font-size: 40px;
@@ -160,35 +136,6 @@ p{
     padding: 10px 20px;
 }
 
-.FutureContainer {
-   border: 5px;
-    border-style: solid;
-    border-color: #4dc1ff;
-    position: relative;
-    height: 394px; /* [1.1] Set it as per your need */
-    width: 650px;
-    margin-left: 6em;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 140px;
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-
-}
-
-.FutureImg {
-    width: 700px;
-    float: left;
-  transition: transform .5s ease, filter .5s ease-in-out;
-    filter: grayscale(100%);
-  /*margin: 1px auto;*/
-
-}
-.FutureImg:hover{
-    -webkit-transform: scale(.5); /* Safari 3-8 */
-    transform: scale(1.5);
-    filter: grayscale(0);
-    width: 700px;    
-}
 .FutureText {
     font-family: Helvetica;
     font-size: 40px;
@@ -201,33 +148,6 @@ p{
     padding: 10px 20px;    
 }
 
-.GalleryContainer {
-   border: 5px;
-    border-style: solid;
-    border-color: #4dc1ff;
-    position: relative;
-    height: 394px; /* [1.1] Set it as per your need */
-    width: 650px;
-    margin-left: 6em;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 0px;
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */        
-}
-.GalleryImg {
-    position: absolute;
-    width: 700px;
-    /*float: right;*/
-  transition: transform .5s ease, filter .5s ease-in-out;
-    filter: grayscale(100%);
- /* margin: 1px auto;*/    
-}
-.GalleryImg:hover{
-    -webkit-transform: scale(.5); /* Safari 3-8 */
-    transform: scale(1.5);
-    filter: grayscale(0);
-    width: 700px;    
-}
 .GalleryText {
     font-family: Helvetica;
     font-size: 40px;
@@ -239,6 +159,7 @@ p{
     color: white;
     padding: 10px 20px;    
 }
+
 footer{
     font-family: Helvetica;
     clear: both;
@@ -272,34 +193,16 @@ small{
     color: white;
 }
 
-
+/*Fullscreen laptop 15inch 125% scale screen*/
 @media (max-width: 1600px) {
     body { font-size: large; }
-    .EarlyLifeContainer {
-        
+    .ImageBorder {        
         margin-left: 6em;
         margin-right: 0em;
         width: 570px;
         height: 321px;
     }
-    .AlbumContainer {
-        margin-left: 7.5em;
-        margin-right: 0px;
-        width: 570px;
-        height: 321px;
-    }
-    .FutureContainer {
-       margin-left: 6em;
-        margin-right: 0em;
-        width: 570px;
-        height: 321px;
-    }
-    .GalleryContainer {
-        margin-left: 7.5em;
-        margin-right: 0px;
-        width: 570px;
-        height: 321px;
-    }    
+
     .EarlyLifeText {
         top: 130px;
         left: 200px;
@@ -315,5 +218,41 @@ small{
     .GalleryText {
         top: 130px;
         left: 220px;
+    }
+}
+
+/*Fullscreen mobile/Split view laptop*/
+@media (max-width: 1000px) {
+    .FrankBG{
+        width: 150%;
+        overflow: hidden;
+    }
+    .ImageBorder {
+        margin-left: 7.5em;
+        width: 470px;
+        height: 270px;
+    }
+    .ImageContainer{
+    width: 470px;
+    height: 270px;
+    }
+    .ImageContainer:hover {
+    width: 470px;
+    }
+    .EarlyLifeText{    
+    top: 2.5em;
+    left: 3.5em;
+    }
+    .AlbumsText{    
+    top: 2.5em;
+    left: 3.5em;
+    }
+    .FutureText{    
+    top: 2.5em;
+    left: 4em;
+    }
+    .GalleryText{    
+    top: 2.5em;
+    left: 4em;
     }
 }
