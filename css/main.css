@@ -13,6 +13,9 @@ html{
     border: 0;
     outline: 0;
 }
+body {
+    font-size: x-large;
+}
 .logo{
     height: 29px; 
     padding: 14px 16px;
@@ -46,7 +49,6 @@ nav ul li a:hover {
   background-color: #333;/*#ddd*/
   color: #4dc1ff;
 }
-
 /* Add a color to the active/current link */ 
 nav ul li a:active {
     background-color: #333;
@@ -63,7 +65,7 @@ nav ul li a:active {
     padding: 0px;
 }
 h1{
-    font-size: 40px;
+    /*font-size: 40px;*/
     font-family: Helvetica;
     text-align: center;
     font-weight: bold;
@@ -77,20 +79,20 @@ p{
     color: white;
 }
 .column {
-    float: left;
+    float:inherit;
 }
 .EarlyLifeContainer {
     border: 5px;
     border-style: solid;
     border-color: #4dc1ff;
     position: relative;
-    height: 394px; /* [1.1] Set it as per your need */
-    width: 650px;
+    height: 369px;
+    width: 600px;
     
-    margin-left: 140px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 140px;
+    /*margin-left:*/ 5.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0em;
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 
 }
@@ -108,8 +110,7 @@ p{
     width: 700px;
     
 }
-.EarlyLifeText
-{    
+.EarlyLifeText{    
     font-family: Helvetica;
     font-size: 40px;
     font-weight: bold;
@@ -126,14 +127,15 @@ p{
     border-style: solid;
     border-color: #4dc1ff;    
     position: relative;
-    height: 394px; /* [1.1] Set it as per your need */
+    height: 394px; 
     width: 650px;
-    margin-left: 140px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 0px;
+    margin-left: 5.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0em;
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
+
 .AlbumsImg{
     width: 700px;
     float: right;
@@ -164,7 +166,7 @@ p{
     border-style: solid;
     border-color: #4dc1ff;
     position: relative;
-    height: 394px; /* [1.1] Set it as per your need */
+    height: 394px; 
     width: 650px;
     margin-left: 140px;
     margin-top: 25px;
@@ -188,7 +190,6 @@ p{
     filter: grayscale(0);
     width: 700px;    
 }
-
 .FutureText {
     font-family: Helvetica;
     font-size: 40px;
@@ -206,7 +207,7 @@ p{
     border-style: solid;
     border-color: #4dc1ff;
     position: relative;
-    height: 394px; /* [1.1] Set it as per your need */
+    height: 394px;
     width: 650px;
     margin-left: 140px;
     margin-top: 25px;
@@ -251,8 +252,7 @@ footer{
     background-color: #434543;    
     text-align: center;
 }
-footer ul
-{
+footer ul{
     font-size: 20px;
     list-style-type: none;
     padding-top: 10px;
@@ -268,13 +268,12 @@ footer ul li a{
         color: white;
     text-decoration: none;
 }
-small
-{
+small{
     text-align: center;
     color: white;
 }
 
-@media (max-width: 1600px) {
+/*@media (max-width: 1000px) {
     .EarlyLifeContainer {
         
         margin-left: 85px;
@@ -316,4 +315,4 @@ small
         top: 130px;
         left: 220px;
     }
-}
+}*/
