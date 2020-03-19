@@ -79,20 +79,19 @@ p{
     color: white;
 }
 .column {
-    float:inherit;
+    float: left;
 }
 .EarlyLifeContainer {
     border: 5px;
     border-style: solid;
     border-color: #4dc1ff;
     position: relative;
-    height: 369px;
-    width: 600px;
-    
-    /*margin-left:*/ 5.5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-right: 0em;
+    height: 394px; /* [1.1] Set it as per your need */
+    width: 650px;
+    margin-left: 6em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 140px;
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 
 }
@@ -127,12 +126,12 @@ p{
     border-style: solid;
     border-color: #4dc1ff;    
     position: relative;
-    height: 394px; 
+    height: 394px; /* [1.1] Set it as per your need */
     width: 650px;
-    margin-left: 5.5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-right: 0em;
+    margin-left: 6em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 0px;
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
@@ -162,13 +161,13 @@ p{
 }
 
 .FutureContainer {
-    border: 5px;
+   border: 5px;
     border-style: solid;
     border-color: #4dc1ff;
     position: relative;
-    height: 394px; 
+    height: 394px; /* [1.1] Set it as per your need */
     width: 650px;
-    margin-left: 140px;
+    margin-left: 6em;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 140px;
@@ -203,17 +202,17 @@ p{
 }
 
 .GalleryContainer {
-    border: 5px;
+   border: 5px;
     border-style: solid;
     border-color: #4dc1ff;
     position: relative;
-    height: 394px;
+    height: 394px; /* [1.1] Set it as per your need */
     width: 650px;
-    margin-left: 140px;
+    margin-left: 6em;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 0px;
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */    
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */        
 }
 .GalleryImg {
     position: absolute;
@@ -273,28 +272,30 @@ small{
     color: white;
 }
 
-/*@media (max-width: 1000px) {
+
+@media (max-width: 1600px) {
+    body { font-size: large; }
     .EarlyLifeContainer {
         
-        margin-left: 85px;
-        margin-right: 10px;
+        margin-left: 6em;
+        margin-right: 0em;
         width: 570px;
         height: 321px;
     }
     .AlbumContainer {
-        margin-left: 5em;
+        margin-left: 7.5em;
         margin-right: 0px;
         width: 570px;
         height: 321px;
     }
     .FutureContainer {
-        margin-left: 5em;
-        margin-right: 10px;
+       margin-left: 6em;
+        margin-right: 0em;
         width: 570px;
         height: 321px;
     }
     .GalleryContainer {
-        margin-left: 5em;
+        margin-left: 7.5em;
         margin-right: 0px;
         width: 570px;
         height: 321px;
@@ -315,4 +316,4 @@ small{
         top: 130px;
         left: 220px;
     }
-}*/
+}
