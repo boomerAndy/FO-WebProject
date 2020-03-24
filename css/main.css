@@ -64,8 +64,11 @@ nav ul li a:active {
     width: 100%;
     overflow: hidden;
 }
+article {
+    margin: 20px;
+}
 h1{
-    /*font-size: 40px;*/
+    font-size: 2.5em;
     font-family: Helvetica;
     text-align: center;
     font-weight: bold;
@@ -74,13 +77,16 @@ h1{
 }
 p{
     font-family: Helvetica;
-    text-align: center;
-    font-weight: 100;
+    text-align:left;
+    font-weight: 10;
     color: white;
+    vertical-align: baseline;
+    line-height: 27px;
 }
 
 .column {
     float: left;
+    position: relative;
 }
 
 .ImageContainer{
@@ -223,9 +229,13 @@ small{
 
 /*Fullscreen mobile/Split view laptop*/
 @media (max-width: 1000px) {
-    .FrankBG{
+    .FrankByAJ{
+        float: left;
         width: 150%;
-        overflow: hidden;
+    }
+    .FrankEL{
+        float: left;
+        width: 150%;
     }
     .ImageBorder {
         margin-left: 7.5em;
@@ -255,4 +265,28 @@ small{
     top: 2.5em;
     left: 4em;
     }
+}
+
+
+
+.PWrapper {
+
+}
+
+.TextWrapper {
+          max-width: 800px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+    
+}
+
+
+
+header {
+    font-size: 3em;
+    font-family: Helvetica;
+    text-align:left;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
 }
