@@ -5,6 +5,8 @@ html{
 {
     font-family: Helvetica;
     src: url("Styles/fonts/Helvetica%Neu%Bold.ttf");
+    font-family: Blonde;
+    src: url("Styles/fonts/Blonde.ttf");
 }
 * {
     margin: 0;
@@ -15,17 +17,19 @@ html{
 body {
     font-size: x-large;
 }
-.logo{
-    height: 29px; 
-    padding: 14px 16px;
-    margin-top: 0;
-    float:left; 
+label.logo{
+color: white;
+font-size: 30px;
+line-height: 100px;
+margin-left:  105px;
+/*    padding-left: 30px;*/
+font-family: Blonde;   
+    text-decoration: none;
 }
+
 nav ul li {
-    display: inline;
-    background-color: white;
-  overflow: hidden;
-    margin: 0px;    
+      display: inline-block;
+  line-height: 70px;
 }
 /* Style the links inside the navigation bar */
 nav ul li a{
@@ -55,18 +59,186 @@ nav ul li a:active {
     transition: transform .5s ease;
     transform: scale(.8);
 }
+nav {
+    height: 100px;
+width: 100%;
+    text-decoration: none;
+}
+
+nav ul {
+    float: right;
+margin-right: 85px;
+}
+
 .active {
   background-color: #4dc1ff;
   color: #333;
 }
 
-.FrankBGContainer {
+#FrankBGContainer {
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/FrankBodyBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+  margin-top: 10px;
+  padding: 100px;
+  width: auto;
+  height: auto;
+
+}
+#LinkStyle {
+    line-height: 100px;
+    color: #4dc1ff;
+text-decoration: none;
+}
+
+
+#FrankInfoHeading {
+    color: white;
+font-family: sans-serif;
+text-align: center;
+}
+
+h2 {
+    font-family: Helvetica;
+    position: relative;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+}
+
+#PhotoContainer {
+    float: left;
+        padding-left: 30px;
+    padding-top: 30px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color:#b0b0b0;
+    border: 1px solid white;
+}
+
+#btnEarlyLife {
+    /*transition: transform .5s ease, filter .5s ease-in-out;*/
+    filter: grayscale(100%);
+        margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 3%;
+    margin-bottom: 50px;
+    padding: 10px;
+    clear: both;
+    transition: .6s;
+    overflow: hidden;
+    color: white;;
     width: 100%;
+    max-width: 30%;
+    
+    font-size: 18px;
+    background-color:#ccc6c6;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
     overflow: hidden;
 }
-article {
-    margin: 20px;
+.Text{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 1175px;
+/*    left: 225px;*/
+    background: rgba(0, 0, 0, 0.7);    
+    color: white;
+    padding: 10px 20px;
 }
+
+#btnEarlyLife:hover{
+background: #4dc1ff;
+    filter: grayscale(0);
+}
+
+
+#btnAlbums {
+    filter: grayscale(100%);
+        margin-top: 3%;
+    margin-left: 12%;
+    margin-right: 3%;
+    margin-bottom: 50px;
+    padding: 10px;
+    clear: both;
+    transition: .6s;
+    overflow: hidden;
+    color: white;;
+    width: 100%;
+    max-width: 30%;
+    
+    font-size: 18px;
+    background-color:#ccc6c6;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+#btnAlbums:hover{
+    background: #4dc1ff;
+    filter: grayscale(0);
+}
+
+#btnFuture {
+     filter: grayscale(100%);
+        margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 3%;
+    margin-bottom: 50px;
+    padding: 10px;
+    clear: both;
+    transition: .6s;
+    overflow: hidden;
+    color: white;;
+    width: 100%;
+    max-width: 30%;
+    
+    font-size: 18px;
+    background-color:#ccc6c6;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;  
+}
+
+#btnFuture:hover {
+    background: #4dc1ff;
+    filter: grayscale(0);
+}
+
+#btnGallery {
+    filter: grayscale(100%);
+        margin-top: 3%;
+    margin-left: 12%;
+    margin-right: 3%;
+    margin-bottom: 50px;
+    padding: 10px;
+    clear: both;
+    transition: .6s;
+    overflow: hidden;
+    color: white;;
+    width: 100%;
+    max-width: 30%;
+    
+    font-size: 18px;
+    background-color:#ccc6c6;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+#btnGallery:hover {
+   background: #4dc1ff;
+    filter: grayscale(0); 
+}
+
 h1{
     font-size: 2.5em;
     font-family: Helvetica;
@@ -77,93 +249,17 @@ h1{
 }
 p{
     font-family: Helvetica;
-    text-align:left;
-    font-weight: 10;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 100;
     color: white;
     vertical-align: baseline;
-    line-height: 27px;
+    line-height: 1.5;
 }
 
 .column {
     float: left;
     position: relative;
-}
-
-.ImageContainer{
-    width: 700px;
-    float: left;
-  transition: transform .5s ease, filter .5s ease-in-out;
-    filter: grayscale(100%);
-  /*margin: 0px auto;*/
-}
-.ImageContainer:hover {
-    -webkit-transform: scale(.5); /* Safari 3-8 */
-    filter: grayscale(0);
-    transform: scale(1.5);
-    width: 700px;
-    
-}
-.ImageBorder {
-    border: 5px;
-    border-style: solid;
-    border-color: #4dc1ff;
-    position: relative;
-    height: 394px; /* [1.1] Set it as per your need */
-    width: 650px;
-    margin-left: 6em;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 140px;
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-
-}
-
-.EarlyLifeText{    
-    font-family: Helvetica;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    top: 175px;
-    left: 225px;
-    background: rgba(0, 0, 0, 0.7);    
-    color: white;
-    padding: 10px 20px;
-}
-
-.AlbumsText{
-    font-family: Helvetica;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    top: 175px;
-    left: 225px;
-    background: rgba(0, 0, 0, 0.7);    
-    color: white;
-    padding: 10px 20px;
-}
-
-.FutureText {
-    font-family: Helvetica;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    top: 175px;
-    left: 260px;
-    background: rgba(0, 0, 0, 0.7);    
-    color: white;
-    padding: 10px 20px;    
-}
-
-.GalleryText {
-    font-family: Helvetica;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    top: 175px;
-    left: 240px;
-    background: rgba(0, 0, 0, 0.7);    
-    color: white;
-    padding: 10px 20px;    
 }
 
 footer{
@@ -202,91 +298,20 @@ small{
 /*Fullscreen laptop 15inch 125% scale screen*/
 @media (max-width: 1600px) {
     body { font-size: large; }
-    .ImageBorder {        
-        margin-left: 6em;
-        margin-right: 0em;
-        width: 570px;
-        height: 321px;
-    }
-
-    .EarlyLifeText {
-        top: 130px;
-        left: 200px;
-    }
-    .AlbumsText {
-        top: 130px;
-        left: 210px;
-    }
-    .FutureText {
-        top: 130px;
-        left: 220px;
-    }
-    .GalleryText {
-        top: 130px;
-        left: 220px;
-    }
 }
-
 /*Fullscreen mobile/Split view laptop*/
 @media (max-width: 1000px) {
-    .FrankByAJ{
-        float: left;
-        width: 150%;
+    #AboutFrankOcean{
+        color: white;
+    width: 100%;
+    max-width:%;
+    height:auto;
+    align-content: center;
+    text-align: center;
+    border: 0px solid grey;
+    margin: auto;
+    font-family: sans-serif;
+    padding: 30px;
+    line-height: 1.5;
     }
-    .FrankEL{
-        float: left;
-        width: 150%;
-    }
-    .ImageBorder {
-        margin-left: 7.5em;
-        width: 470px;
-        height: 270px;
-    }
-    .ImageContainer{
-    width: 470px;
-    height: 270px;
-    }
-    .ImageContainer:hover {
-    width: 470px;
-    }
-    .EarlyLifeText{    
-    top: 2.5em;
-    left: 3.5em;
-    }
-    .AlbumsText{    
-    top: 2.5em;
-    left: 3.5em;
-    }
-    .FutureText{    
-    top: 2.5em;
-    left: 4em;
-    }
-    .GalleryText{    
-    top: 2.5em;
-    left: 4em;
-    }
-}
-
-
-
-.PWrapper {
-
-}
-
-.TextWrapper {
-          max-width: 800px;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 10px;
-    
-}
-
-
-
-header {
-    font-size: 3em;
-    font-family: Helvetica;
-    text-align:left;
-    font-weight: bold;
-    color: white;
-    padding: 10px;
 }
