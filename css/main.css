@@ -15,7 +15,7 @@ html{
     outline: 0;
 }
 body {
-    font-size: x-large;
+    font-size: large;
 }
 label.logo{
 color: white;
@@ -76,12 +76,12 @@ margin-right: 85px;
 }
 
 #FrankBGContainer {
-background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/FrankBodyBackground.png);
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/ocean-frank-505f67a682a39.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
   background-attachment: fixed;
-  margin-top: 10px;
+  margin-top: 2px;
   padding: 100px;
   width: auto;
   height: auto;
@@ -96,8 +96,14 @@ text-decoration: none;
 
 #FrankInfoHeading {
     color: white;
-font-family: sans-serif;
+font-family: Blonde;
+    padding-top: 100px;
+    word-spacing: 10px;
+    line-height: 70px;
 text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 100px;
 }
 
 h2 {
@@ -255,6 +261,8 @@ p{
     color: white;
     vertical-align: baseline;
     line-height: 1.5;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .column {
