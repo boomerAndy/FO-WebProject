@@ -259,9 +259,7 @@ p{
     color: white;
     vertical-align: baseline;
     line-height: 1.5;
-    max-width: 50%;
-    display: inline-block;
-/*    margin-right: 50%;*/
+    margin-right: 50%;
 }
 
 .column {
@@ -321,17 +319,4 @@ small{
     padding: 30px;
     line-height: 1.5;
     }
-}
-iframe {
-
-
-}
-
-.MapAndPAlign {
-     display: inline-block;
-}
-
-#MapAndPAlign {
-     display: inline-block;
-    float: right;
 }
