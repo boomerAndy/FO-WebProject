@@ -1,15 +1,15 @@
 html{
     background-color: #333;
 }
-@font-face
+/*@font-face
 {
     font-family: Helvetica;
-    src: url("Styles/fonts/Helvetica.ttf");
+    src: url("Helvetica.ttf");
     
 }
 @font-face{
     font-family: Blonde;
-    src: url("Styles/fonts/Blonde.ttf");
+    src: url("Blonde.ttf");*/
 }
 * {
     margin: 0;
