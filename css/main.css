@@ -6,7 +6,7 @@ html{
     font-family: Helvetica;
     src: url("css/fonts/Helvetica%Neu%Bold.ttf");
     font-family: Blonde;
-    src: url("css/fonts/Blonde.otf");
+    src: url("css/fonts/Blonde.ttf");
 }
 * {
     margin: 0;
