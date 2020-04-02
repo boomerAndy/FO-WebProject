@@ -3,10 +3,14 @@ html{
 }
 @font-face
 {
+/*    font-family: 'Blonde';
+    src:url("../fonts/Blonde.ttf");*/
     font-family: Helvetica;
-    src: url("css/fonts/Helvetica%Neu%Bold.ttf");
-    font-family: Blonde;
-    src: url("css/fonts/Blonde.ttf");
+    src: url("Styles/fonts/Helvetica.ttf");
+    
+}
+@font-face{
+    
 }
 * {
     margin: 0;
@@ -15,6 +19,9 @@ html{
     outline: 0;
 }
 body {
+  /*  font-family: Blonde;*/
+    font-weight: normal;
+    font-size: 40px;
     font-size: large;
 }
 label.logo{
@@ -22,8 +29,9 @@ color: white;
 font-size: 30px;
 line-height: 100px;
 margin-left:  105px;
-/*    padding-left: 30px;*/
-font-family: Blonde;   
+font-family: Blonde;
+/*    font-weight: normal;
+    font-size: 40px;*/
     text-decoration: none;
 }
 
@@ -60,6 +68,7 @@ nav ul li a:active {
     transform: scale(.8);
 }
 nav {
+    font-family: Helvetica;
     height: 100px;
 width: 100%;
     text-decoration: none;
