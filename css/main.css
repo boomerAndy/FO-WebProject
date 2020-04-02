@@ -313,7 +313,16 @@ small{
 
 /*Fullscreen laptop 15inch 125% scale screen*/
 @media (max-width: 1600px) {
-    body { font-size: large; }
+    body { font-size: medium; }
+    #FrankInfoHeading{
+        padding-top: 10px;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+    p{
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
 }
 /*Fullscreen mobile/Split view laptop*/
 @media (max-width: 1000px) {
@@ -330,4 +339,15 @@ small{
     padding: 30px;
     line-height: 1.5;
     }
+}
+article {
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+    vertical-align: baseline;
+    line-height: 1.5;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1.5%
 }
