@@ -3,8 +3,8 @@ html{
 }
 @font-face
 {
-    font-family: Helvetica;
-    src: url("css/fonts/Helvetica%Neu%Bold.ttf");
+/*    font-family: Helvetica;
+    src: url("css/fonts/Helvetica%Neu%Bold.ttf");*/
     font-family: Blonde;
     src: url("css/fonts/Blonde.ttf");
 }
@@ -35,7 +35,7 @@ nav ul li {
 nav ul li a{
   list-style-type: none;
     display: inline;
-  font-family: Helvetica;
+  font-family: Blonde;
     font-weight: bold;
   float: left;
   color: white;
