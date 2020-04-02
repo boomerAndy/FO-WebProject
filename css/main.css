@@ -24,12 +24,13 @@ body {
     font-size: large;
 }
 label.logo{
+    font-family: Blonde;
+    src: url("Blonde.ttf");
 color: white;
 font-size: 30px;
 line-height: 100px;
 margin-left:  105px;
-font-family: 'Blonde';
-    src: url("Blonde.ttf");
+
 /*    font-weight: normal;
     font-size: 40px;*/
     text-decoration: none;
