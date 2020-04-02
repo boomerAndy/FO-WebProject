@@ -3,14 +3,13 @@ html{
 }
 @font-face
 {
-/*    font-family: 'Blonde';
-    src:url("../fonts/Blonde.ttf");*/
     font-family: Helvetica;
     src: url("Styles/fonts/Helvetica.ttf");
     
 }
 @font-face{
-    
+    font-family: Blonde;
+    src: url("Styles/fonts/Blonde.ttf");
 }
 * {
     margin: 0;
