@@ -76,10 +76,10 @@ margin-right: 85px;
 }
 
 #FrankBGContainer {
-background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../EarlyLifeImages/36-361789_frank-ocean.jpg);
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../EarlyLifeImages/frankperformingLAcropped.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: center;
   background-attachment: fixed;
   margin-top: 2px;
   padding: 100px;
@@ -89,18 +89,27 @@ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Early
 #LinkStyle {
     line-height: 100px;
     color: #4dc1ff;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 35px;
+    padding-top: 35px;
 text-decoration: none;
+}
+#LinkStyle:hover{
+      background-color: #333;/*#ddd*/
+  color: white;
 }
 
 
 #FrankInfoHeading {
     color: white;
 font-family: Blonde;
-    padding-top: 200px;
+    padding-top: 100px;
     word-spacing: 10px;
     line-height: 70px;
 text-align: center;
-    margin-right: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding-bottom: 100px;
 }
 
@@ -257,11 +266,11 @@ p{
     text-align: center;
     font-weight: 100;
     color: white;
-    vertical-align: baseline;
+    /*vertical-align: baseline;*/
     line-height: 1.5;
-    max-width: 50%;
-    display: inline-block;
-/*    margin-right: 50%;*/
+       margin-left: 25%;
+    margin-right: 25%;
+padding-bottom: 50px;
 }
 
 .column {
@@ -323,8 +332,8 @@ small{
     }
 }
 iframe {
-
-
+ margin: 0 auto;
+    display:block;
 }
 
 .MapAndPAlign {
