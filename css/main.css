@@ -6,10 +6,18 @@ html{
     font-family: Helvetica;
     src: url("Helvetica.ttf");
     
+}*/
+@font-face {
+    font-family: 'Blonde';
+    src: url(fonts/Blonde.ttf);
+    font-style: normal;
+    font-weight: 100;
 }
-@font-face{
-    font-family: Blonde;
-    src: url("Blonde.ttf");*/
+@font-face {
+    font-family: 'Helvetica';
+    src: url(fonts/HelveticaNeueIt.ttf);
+    font-style: normal;
+    font-weight: 600;
 }
 * {
     margin: 0;
@@ -18,14 +26,13 @@ html{
     outline: 0;
 }
 body {
-  /*  font-family: Blonde;*/
     font-weight: normal;
     font-size: 40px;
     font-size: large;
 }
 label.logo{
     font-family: Blonde;
-    src: url("Blonde.ttf");
+    font-weight: bold;
 color: white;
 font-size: 30px;
 line-height: 100px;
@@ -37,6 +44,8 @@ margin-left:  105px;
 }
 
 nav ul li {
+    font-family: Helvetica;
+    font-weight: 600;
       display: inline-block;
   line-height: 70px;
 }
@@ -44,7 +53,7 @@ nav ul li {
 nav ul li a{
   list-style-type: none;
     display: inline;
-  font-family: Helvetica;
+/*  font-family: Helvetica;*/
     font-weight: bold;
   float: left;
   color: white;
