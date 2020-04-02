@@ -4,9 +4,9 @@ html{
 @font-face
 {
     font-family: Helvetica;
-    src: url("Styles/fonts/Helvetica%Neu%Bold.ttf");
+    src: url("css/fonts/Helvetica%Neu%Bold.ttf");
     font-family: Blonde;
-    src: url("Styles/fonts/Blonde.otf");
+    src: url("css/fonts/Blonde.otf");
 }
 * {
     margin: 0;
