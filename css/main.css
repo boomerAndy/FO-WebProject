@@ -9,13 +9,13 @@ html{
 }*/
 @font-face {
     font-family: 'Blonde';
-    src: url(../FO-WebProject/css/fonts/Blonde.ttf);
+    src: url(../css/fonts/Blonde.ttf);
     font-style: normal;
     font-weight: 100;
 }
 @font-face {
     font-family: 'Helvetica';
-    src: url(../FO-WebProject/css/fonts/HelveticaNeueIt.ttf);
+    src: url(../css/fonts/HelveticaNeueIt.ttf);
     font-style: normal;
     font-weight: 600;
 }
