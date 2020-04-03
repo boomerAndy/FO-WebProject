@@ -15,9 +15,9 @@ html{
 }
 @font-face {
     font-family: 'Helvetica';
-    src: url(../css/fonts/HelveticaNeueIt.ttf);
-    font-style: normal;
-    font-weight: 600;
+    src: url(../css/fonts/HelveticaNeuBold.ttf);
+    /*font-style: bold*/;
+    /*font-weight: bold;*/
 }
 * {
     margin: 0;
@@ -45,7 +45,7 @@ margin-left:  105px;
 
 nav ul li {
     font-family: Helvetica;
-    font-weight: 600;
+    font-weight: 300;
       display: inline-block;
   line-height: 70px;
 }
@@ -284,7 +284,7 @@ p{
     font-family: Helvetica;
     font-size: 1.5em;
     text-align: center;
-    font-weight: 100;
+    font-weight: 1;
     color: white;
     vertical-align: baseline;
     line-height: 1.5;
@@ -369,4 +369,16 @@ article {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 1.5%
+}
+
+poop {
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-style: italic;
+    color: white;
+    vertical-align: baseline;
+    line-height: 1.5;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    text-align: center;
 }
