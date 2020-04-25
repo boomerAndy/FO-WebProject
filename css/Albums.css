@@ -1,12 +1,15 @@
 html{
     background-color: #333;
 }
-@font-face
-{
-    font-family: Helvetica;
-    src: url("Styles/fonts/Helvetica%Neu%Bold.ttf");
-    font-family: Blonde;
-    src: url("Styles/fonts/Blonde.ttf");
+@font-face {
+    font-family: 'Blonde';
+    src: url(../css/fonts/Blonde.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../css/fonts/HelveticaNeuBold.ttf);
 }
 * {
     margin: 0;
@@ -15,46 +18,44 @@ html{
     outline: 0;
 }
 body {
+    font-weight: normal;
+    font-size: 40px;
     font-size: large;
 }
 label.logo{
-color: white;
-font-size: 30px;
-line-height: 100px;
-margin-left:  105px;
-/*    padding-left: 30px;*/
-font-family: Blonde;   
+    font-family: Blonde;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    margin-left:  105px;
     text-decoration: none;
-}
-label.logo:hover{
-      background-color: #333;/*#ddd*/
-  color: white;
 }
 
 nav ul li {
+    font-family: Helvetica;
+    font-weight: 300;
       display: inline-block;
   line-height: 70px;
 }
 /* Style the links inside the navigation bar */
 nav ul li a{
-  list-style-type: none;
+    list-style-type: none;
     display: inline;
-  font-family: Helvetica;
     font-weight: bold;
-  float: left;
-  color: white;
-  text-align: center;
-  padding-left: 14px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding-left: 14px;
     padding-right: 14px;
     padding-bottom: 16px;
     padding-top: 16px;
     text-decoration:none;
-  font-size: 25px;
+    font-size: 25px;
 }
 /* Change the color of links on hover */
 nav ul li a:hover {
-  background-color: #333;/*#ddd*/
-  color: #4dc1ff;
+    background-color: #333;/*#ddd*/
+    color: #4dc1ff;
 }
 /* Add a color to the active/current link */ 
 nav ul li a:active {
@@ -64,56 +65,82 @@ nav ul li a:active {
     transform: scale(.8);
 }
 nav {
+    font-family: Helvetica;
     height: 100px;
-width: 100%;
+    width: 100%;
     text-decoration: none;
 }
 
 nav ul {
     float: right;
-margin-right: 85px;
+    margin-right: 85px;
 }
 
 .active {
-  background-color: #4dc1ff;
-  color: #333;
+    background-color: #4dc1ff;
+    color: #333;
 }
 
 #FrankBGContainer {
-background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../EarlyLifeImages/36-361789_frank-ocean.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  background-attachment: fixed;
-  margin-top: 2px;
-  padding: 100px;
-  width: auto;
-  height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Images/Trammell-Frank-Ocean-New.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 2px;
+    padding: 100px;
+    width: auto;
+    height: auto;
+}
+
+#FrankBGContainer2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../AlbumsImages/oddf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 2px;
+    padding: 100px;
+    width: auto;
+    height: auto;
+    border-top: 1px solid #4dc1ff;
+}
+#FrankBGContainer3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Images/pyramids.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 2px;
+    padding: 100px;
+    width: auto;
+    height: auto;
+    border-top: 1px solid #4dc1ff;
+
 }
 #LinkStyle {
-    line-height: 100px;
+    line-height: 70px;
     color: #4dc1ff;
-        padding-left: 14px;
+    padding-left: 14px;
     padding-right: 14px;
     padding-bottom: 35px;
     padding-top: 35px;
-text-decoration: none;
+    text-decoration: none;
 }
 #LinkStyle:hover{
-      background-color: #333;/*#ddd*/
-  color: white;
+    background-color: #333;/*#ddd*/
+    color: white;
 }
-
-
 #FrankInfoHeading {
     color: white;
-font-family: Blonde;
- /*   padding-top: 200px;*/
+    font-family: Blonde;
+    padding-top: 100px;
     word-spacing: 10px;
-/*    line-height: 70px;*/
-text-align: center;
-/*    margin-right: 50%;
-    padding-bottom: 100px;*/
+    line-height: 70px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 100px;
 }
 
 h2 {
@@ -122,163 +149,101 @@ h2 {
     text-align: center;
     font-size: 2.5em;
     color: white;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     padding-bottom: 20px;
 }
-}
 
-#PhotoContainer {
-    float: left;
-        padding-left: 30px;
-    padding-top: 30px;
-    max-width: 100%;
-    height: auto;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    background-color:#b0b0b0;
-    border: 1px solid white;
-}
-
-#btnEarlyLife {
-    /*transition: transform .5s ease, filter .5s ease-in-out;*/
-    filter: grayscale(100%);
-        margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 3%;
-    margin-bottom: 50px;
-    padding: 10px;
-    clear: both;
-    transition: .6s;
-    overflow: hidden;
-    color: white;;
+    #AboutFrankOcean{
+        color: white;
     width: 100%;
-    max-width: 30%;
-    
-    font-size: 18px;
-    background-color:#ccc6c6;
-    position: relative;
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    overflow: hidden;
-}
-.Text{
-    font-family: Helvetica;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    top: 1175px;
-/*    left: 225px;*/
-    background: rgba(0, 0, 0, 0.7);    
-    color: white;
-    padding: 10px 20px;
-}
-
-#btnEarlyLife:hover{
-background: #4dc1ff;
-    filter: grayscale(0);
-}
-
-
-#btnAlbums {
-    filter: grayscale(100%);
-        margin-top: 3%;
-    margin-left: 12%;
-    margin-right: 3%;
-    margin-bottom: 50px;
-    padding: 10px;
-    clear: both;
-    transition: .6s;
-    overflow: hidden;
-    color: white;;
-    width: 100%;
-    max-width: 30%;
-    
-    font-size: 18px;
-    background-color:#ccc6c6;
-    position: relative;
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    overflow: hidden;
-}
-
-#btnAlbums:hover{
-    background: #4dc1ff;
-    filter: grayscale(0);
-}
-
-#btnFuture {
-     filter: grayscale(100%);
-        margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 3%;
-    margin-bottom: 50px;
-    padding: 10px;
-    clear: both;
-    transition: .6s;
-    overflow: hidden;
-    color: white;;
-    width: 100%;
-    max-width: 30%;
-    
-    font-size: 18px;
-    background-color:#ccc6c6;
-    position: relative;
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    overflow: hidden;  
-}
-
-#btnFuture:hover {
-    background: #4dc1ff;
-    filter: grayscale(0);
-}
-
-#btnGallery {
-    filter: grayscale(100%);
-        margin-top: 3%;
-    margin-left: 12%;
-    margin-right: 3%;
-    margin-bottom: 50px;
-    padding: 10px;
-    clear: both;
-    transition: .6s;
-    overflow: hidden;
-    color: white;;
-    width: 100%;
-    max-width: 30%;
-    
-    font-size: 18px;
-    background-color:#ccc6c6;
-    position: relative;
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    overflow: hidden;
-}
-#btnGallery:hover {
-   background: #4dc1ff;
-    filter: grayscale(0); 
-}
-
-h1{
-    font-size: 2.5em;
-    font-family: Helvetica;
+    max-width:%;
+    height:auto;
+    align-content: center;
     text-align: center;
-    font-weight: bold;
-    color: white;
-    margin: 17px;
-}
+    border: 0px solid grey;
+    margin: auto;
+    font-family: sans-serif;
+    padding: 30px;
+    line-height: 1.5;
+    }
 p{
     font-family: Helvetica;
     font-size: 1.5em;
     text-align: center;
-    font-weight: 100;
+    font-weight: 1;
     color: white;
-    vertical-align: baseline;
+    vertical-align: middle;
     line-height: 1.5;
-    margin-right: 50%;
+/*    margin-left: %;*/
+    /*margin-right: 50%;*/
+    padding-bottom: 2.5%;
+/*    padding-top: 5%;*/
+    display: inline-block;
 }
 
-.column {
-    float: left;
+iframe {
+    padding-top: 2%;
+ margin: 0 auto;
+    display:block;
+}
+
+#MapAndPAlign {
+     display: inline-block;
+    float: right;
+}
+
+
+#AboutFrankOceanBox2 {
+    display: flex;
+}
+
+#SaveupHeading {
+    color: white;
+    font-family: Blonde;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.7em;
+    word-spacing: 10px;
+    line-height: 70px;
+    text-align: center;
+}
+
+figcaption {
+    font-family: Helvetica;
+    font-size: 1em;
+    text-align: left;
+    font-weight: 1;
+    color: white;
+}
+
+#PhotoContainer {
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 40%;
+}
+
+#btnAlbums {
+    filter: grayscale(100%);
+    padding: 10px;
+    clear: both;
+    transition: .6s;
+    overflow: hidden;
+    color: white;
+    max-width: 100%;    
+    background-color:#ccc6c6;
     position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+#btnAlbums:hover{
+        background: #4dc1ff;
+    filter: grayscale(0);
 }
 
+.youngFrank {
+        height: 600px;
+    vertical-align: middle;
+}
 footer{
     font-family: Helvetica;
     clear: both;
@@ -307,6 +272,9 @@ footer ul li a{
         color: white;
     text-decoration: none;
 }
+footer ul li a:hover{
+    color: #4dc1ff;
+}
 small{
     text-align: center;
     color: white;
@@ -314,21 +282,42 @@ small{
 
 /*Fullscreen laptop 15inch 125% scale screen*/
 @media (max-width: 1600px) {
-    body { font-size: large; }
+    body { font-size: medium; }
+    #FrankInfoHeading{
+        padding-top: 10px;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+    p{
+        margin-left: 12.5%;
+        margin-right:12.5%;
+    }
 }
 /*Fullscreen mobile/Split view laptop*/
 @media (max-width: 1000px) {
-    #AboutFrankOcean{
-        color: white;
-    width: 100%;
-    max-width:%;
-    height:auto;
-    align-content: center;
-    text-align: center;
-    border: 0px solid grey;
-    margin: auto;
-    font-family: sans-serif;
-    padding: 30px;
-    line-height: 1.5;
+    iframe{
+        width: 500px;
     }
+    .youngFrank{
+    display: block;
+    margin: 0 auto;
+        
+    }
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        display:;
+    }
+.content {
+    /*text-align: justify;*/
+    /*width: 600px;*/
 }
+#FrankInfoHeading {
+    margin-left: auto;
+    margin-right: auto;
+    }
+#AboutFrankOceanBox2 {
+    display: block;
+}
+}
+

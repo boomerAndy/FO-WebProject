@@ -162,16 +162,6 @@ h2 {
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     overflow: hidden;
 }
-.Text{
-    font-family: Helvetica;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    top: 1175px;
-    background: rgba(0, 0, 0, 0.7);    
-    color: white;
-    padding: 10px 20px;
-}
 
 #btnEarlyLife:hover{
     background: #4dc1ff;
@@ -305,6 +295,9 @@ footer ul li{
 footer ul li a{
         color: white;
     text-decoration: none;
+}
+footer ul li a:hover{
+    color: #4dc1ff;
 }
 small{
     text-align: center;
