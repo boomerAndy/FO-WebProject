@@ -54,13 +54,14 @@ nav ul li a{
 }
 /* Change the color of links on hover */
 nav ul li a:hover {
+    transition: transform .5s ease;
     background-color: #333;/*#ddd*/
     color: #4dc1ff;
 }
 /* Add a color to the active/current link */ 
 nav ul li a:active {
     background-color: #333;
-    color: #4dc1ff;
+    /*color: #4dc1ff;*/
     transition: transform .5s ease;
     transform: scale(.8);
 }

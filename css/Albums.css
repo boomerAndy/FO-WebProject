@@ -22,13 +22,25 @@ body {
     font-size: 40px;
     font-size: large;
 }
-label.logo{
+label.logo {
     font-family: Blonde;
-    color: white;
-    font-size: 30px;
+    font-size: 1.5vw;
     line-height: 100px;
-    margin-left:  105px;
+    margin-left:  1vw;
     text-decoration: none;
+    color: white;
+}
+label.logo a{
+    transition: .5s;    
+    color: white;
+    
+}
+label.logo a:hover{
+    color: #4dc1ff;
+}
+label.logo:active{
+    transition: transform .5s ease;
+    transform: scale(.8);
 }
 
 nav ul li {
@@ -36,6 +48,7 @@ nav ul li {
     font-weight: 300;
       display: inline-block;
   line-height: 70px;
+    
 }
 /* Style the links inside the navigation bar */
 nav ul li a{
@@ -51,16 +64,16 @@ nav ul li a{
     padding-top: 16px;
     text-decoration:none;
     font-size: 25px;
+    transition: .5s;
 }
 /* Change the color of links on hover */
 nav ul li a:hover {
-    background-color: #333;/*#ddd*/
     color: #4dc1ff;
 }
 /* Add a color to the active/current link */ 
 nav ul li a:active {
-    background-color: #333;
-    color: #4dc1ff;
+    /*background-color: #333;*/
+    /*color: #4dc1ff;*/
     transition: transform .5s ease;
     transform: scale(.8);
 }
@@ -73,12 +86,12 @@ nav {
 
 nav ul {
     float: right;
-    margin-right: 85px;
+    margin-right: 1vw;
 }
 
 .active {
-    background-color: #4dc1ff;
-    color: #333;
+    transition: .5 ease;
+    color: #4dc1ff;
 }
 
 #FrankBGContainer {
@@ -106,7 +119,7 @@ nav ul {
     border-top: 1px solid #4dc1ff;
 }
 #FrankBGContainer3 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Images/pyramids.png);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../AlbumsImages/frankAfterNU.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -120,7 +133,7 @@ nav ul {
 }
 #LinkStyle {
     line-height: 70px;
-    color: #4dc1ff;
+    /*color: #4dc1ff;*/
     padding-left: 14px;
     padding-right: 14px;
     padding-bottom: 35px;
@@ -129,7 +142,7 @@ nav ul {
 }
 #LinkStyle:hover{
     background-color: #333;/*#ddd*/
-    color: white;
+    /*color: white;*/
 }
 #FrankInfoHeading {
     color: white;
@@ -151,6 +164,19 @@ h2 {
     color: white;
     /*padding-top: 30px;*/
     padding-bottom: 20px;
+    
+}
+p a {
+    font-family: Helvetica;
+    position: relative;
+    display: inline;
+    font-size: 2.5vw;
+    color: white;
+    text-decoration:none;
+    transition: .5s;
+}
+p a:hover{
+    color: #4dc1ff;
 }
 
     #AboutFrankOcean{
@@ -168,23 +194,21 @@ h2 {
     }
 p{
     font-family: Helvetica;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     text-align: center;
     font-weight: 1;
     color: white;
     vertical-align: middle;
     line-height: 1.5;
-/*    margin-left: %;*/
-    /*margin-right: 50%;*/
     padding-bottom: 2.5%;
-/*    padding-top: 5%;*/
+    /*padding-top: 5%;*/
     display: inline-block;
 }
 
 iframe {
-    padding-top: 2%;
+    /*padding-top: 2%;
  margin: 0 auto;
-    display:block;
+    display:block;*/
 }
 
 #MapAndPAlign {
@@ -294,9 +318,9 @@ small{
     }
 }
 /*Fullscreen mobile/Split view laptop*/
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     iframe{
-        width: 500px;
+        width: 455px;
     }
     .youngFrank{
     display: block;
@@ -306,8 +330,15 @@ small{
     p {
         margin-left: auto;
         margin-right: auto;
-        display:;
+        font-size: 2vw;
     }
+    #YearHead{
+        font-size: 5vw;
+    }
+    label.logo{
+        margin-left: 1vw;
+    }
+    nav ul li a{ font-size: 2vw}
 .content {
     /*text-align: justify;*/
     /*width: 600px;*/
@@ -315,9 +346,86 @@ small{
 #FrankInfoHeading {
     margin-left: auto;
     margin-right: auto;
+    font-size: 4vw;
     }
 #AboutFrankOceanBox2 {
     display: block;
 }
 }
 
+
+#afterVid {
+    padding-bottom: 0;
+    padding-top: 5%;
+}
+
+#Spotify {
+   display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SpotifyContainer {
+    /*margin-left: 12.5%;
+    margin-right: 12.5%;*/
+    text-align:center;
+}
+
+#YearHead {
+
+}
+
+#NostalgiaImages {
+    width: 300px;
+    /*height: 380px;*/
+}
+
+#NostalgiaContainer {
+        text-align:center;
+        padding-bottom: 2%;
+}
+
+.theOFCrew {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.OldieVid {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.OldieAndOFPic {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+#FrankBGContainer4 {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../AlbumsImages/frankAfterNU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 2px;
+    padding: 100px;
+    width: auto;
+    height: auto;
+    border-top: 1px solid #4dc1ff;
+}
+
+#JumpHeading {
+    
+}
+
+.JumpTo {
+        margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
