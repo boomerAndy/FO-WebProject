@@ -107,7 +107,7 @@ nav ul {
 }
 
 #FrankBGContainer2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(../Images/Davor%20Hikl%20artpiece.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(../AlbumsImages/oddf.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -169,7 +169,7 @@ h2 {
 p a {
     font-family: Helvetica;
     position: relative;
-    display: inline;
+    display:block;
     font-size: 2.5vw;
     color: white;
     text-decoration:none;
@@ -338,10 +338,6 @@ small{
         margin-left: 1vw;
     }
     nav ul li a{ font-size: 2vw}
-.content {
-    /*text-align: justify;*/
-    /*width: 600px;*/
-}
 #FrankInfoHeading {
     margin-left: auto;
     margin-right: auto;
@@ -358,7 +354,7 @@ small{
     padding-top: 5%;
 }
 
-#Spotify {
+#Spotify1 {
    display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -384,11 +380,7 @@ small{
         padding-bottom: 2%;
 }
 
-.theOFCrew {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
+
 
 .OldieVid {
     padding-left: 1%;
@@ -431,7 +423,7 @@ small{
     text-align: center;
 }
 #FrankBGContainer5 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../AlbumsImages/frankAfterNU.jpg);
+        background: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),*/url(../AlbumsImages/oddf.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -442,8 +434,93 @@ small{
     height: auto;
     border-top: 1px solid #4dc1ff;
 }
-.FrankChillin {
+.FinesseVid {
         margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+#form1 {
+    font-size: 1vw;
+    text-align: left;
+}
+
+#ContactHead {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    text-align: center;
+}
+
+#FirstWrapper {
+    float: left;
+}
+
+#email {
+    padding: 5%;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    clear: both;
+}
+
+#telephone {
+        padding: 5%;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    clear: both;
+}
+
+#SecondWrapper {
+        float: right;
+}
+
+#contactFormContainer {
+    margin: auto;
+    text-align: center;
+    max-width: 50vw;
+    margin-bottom: 25%;
+}
+
+#firstName {
+        padding: 5%;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    clear: both;
+}
+
+#lastName {
+        padding: 5%;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    clear: both;
+}
+
+#words {
+    padding: 5%;
+    width: 100%;
+    max-width: 95%;
+    clear: both;
+    font-size: 1.5vw;
+}
+
+#Submit {
+    
+}
+
+#form2 {
+        font-size: 1vw;
+    text-align: left;
+}
+
+#form3 {
+        font-size: 1vw;
+    text-align: left;
+}
+
+#form4 {
+        font-size: 1vw;
+    text-align: left;
 }

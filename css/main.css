@@ -22,13 +22,25 @@ body {
     font-size: 40px;
     font-size: large;
 }
-label.logo{
+label.logo {
     font-family: Blonde;
-    color: white;
-    font-size: 30px;
+    font-size: 1.5vw;
     line-height: 100px;
-    margin-left:  105px;
+    margin-left:  1vw;
     text-decoration: none;
+    color: white;
+}
+label.logo a{
+    transition: .5s;    
+    color: white;
+    
+}
+label.logo a:hover{
+    color: #4dc1ff;
+}
+label.logo:active{
+    transition: transform .5s ease;
+    transform: scale(.8);
 }
 
 nav ul li {
@@ -36,6 +48,7 @@ nav ul li {
     font-weight: 300;
       display: inline-block;
   line-height: 70px;
+    
 }
 /* Style the links inside the navigation bar */
 nav ul li a{
@@ -51,16 +64,15 @@ nav ul li a{
     padding-top: 16px;
     text-decoration:none;
     font-size: 25px;
+    transition: .5s;
 }
 /* Change the color of links on hover */
 nav ul li a:hover {
-    transition: transform .5s ease;
-    background-color: #333;/*#ddd*/
     color: #4dc1ff;
 }
 /* Add a color to the active/current link */ 
 nav ul li a:active {
-    background-color: #333;
+    /*background-color: #333;*/
     /*color: #4dc1ff;*/
     transition: transform .5s ease;
     transform: scale(.8);
@@ -74,12 +86,12 @@ nav {
 
 nav ul {
     float: right;
-    margin-right: 85px;
+    margin-right: 1vw;
 }
 
 .active {
-    background-color: #4dc1ff;
-    color: #333;
+    transition: .5s;
+    color: #4dc1ff;
 }
 
 #FrankBGContainer {
@@ -254,9 +266,9 @@ h1{
 }
 p{
     font-family: Helvetica;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     text-align: center;
-    font-weight: 1;
+    font-weight: 100;
     color: white;
     vertical-align: baseline;
     line-height: 1.5;
@@ -323,7 +335,6 @@ small{
     #AboutFrankOcean{
         color: white;
     width: 100%;
-    max-width:%;
     height:auto;
     align-content: center;
     text-align: center;
@@ -334,8 +345,23 @@ small{
     line-height: 1.5;
     }
 }
+@media (max-width: 1200px) {
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2vw;
+    }
+    label.logo{
+        margin-left: 1vw;
+    }
+    nav ul li a{ font-size: 2vw}
+.content {
+    /*text-align: justify;*/
+    /*width: 600px;*/
+}
 article {
     font-family: Helvetica;
+    font-size: 1vw;
     text-align: center;
     font-weight: 100;
     color: white;
@@ -343,6 +369,10 @@ article {
     line-height: 1.5;
     margin-left: 25%;
     margin-right: 25%;
-    margin-bottom: 1.5%
+    margin-bottom: 1.5%;
 }
-
+#notice {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    }
+}

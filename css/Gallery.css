@@ -91,7 +91,7 @@ nav ul {
 }
 
 .active {
-    transition: .5 ease;
+    transition: .5s;
     color: #4dc1ff;
 }
 
@@ -135,7 +135,7 @@ p {
     font-family: Helvetica;
     font-size: 1.5vw;
     text-align: center;
-    font-weight: 1;
+    font-weight: 100;
     color: white;
     vertical-align: baseline;
     line-height: 1.5;

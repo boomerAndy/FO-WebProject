@@ -22,13 +22,25 @@ body {
     font-size: 40px;
     font-size: large;
 }
-label.logo{
+label.logo {
     font-family: Blonde;
-    color: white;
-    font-size: 30px;
+    font-size: 1.5vw;
     line-height: 100px;
-    margin-left:  105px;
+    margin-left:  1vw;
     text-decoration: none;
+    color: white;
+}
+label.logo a{
+    transition: .5s;    
+    color: white;
+    
+}
+label.logo a:hover{
+    color: #4dc1ff;
+}
+label.logo:active{
+    transition: transform .5s ease;
+    transform: scale(.8);
 }
 
 nav ul li {
@@ -36,6 +48,7 @@ nav ul li {
     font-weight: 300;
       display: inline-block;
   line-height: 70px;
+    
 }
 /* Style the links inside the navigation bar */
 nav ul li a{
@@ -51,16 +64,16 @@ nav ul li a{
     padding-top: 16px;
     text-decoration:none;
     font-size: 25px;
+    transition: .5s;
 }
 /* Change the color of links on hover */
 nav ul li a:hover {
-    background-color: #333;/*#ddd*/
     color: #4dc1ff;
 }
 /* Add a color to the active/current link */ 
 nav ul li a:active {
-    background-color: #333;
-    color: #4dc1ff;
+    /*background-color: #333;*/
+    /*color: #4dc1ff;*/
     transition: transform .5s ease;
     transform: scale(.8);
 }
@@ -73,13 +86,14 @@ nav {
 
 nav ul {
     float: right;
-    margin-right: 85px;
+    margin-right: 1vw;
 }
 
 .active {
-    background-color: #4dc1ff;
-    color: #333;
+    transition: .5s;
+    color: #4dc1ff;
 }
+
 
 #FrankBGContainer {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../EarlyLifeImages/frankperformingLAcropped.jpg);
@@ -156,7 +170,6 @@ h2 {
     #AboutFrankOcean{
         color: white;
     width: 100%;
-    max-width:%;
     height:auto;
     align-content: center;
     text-align: center;
@@ -170,7 +183,7 @@ p{
     font-family: Helvetica;
     font-size: 1.5em;
     text-align: center;
-    font-weight: 1;
+    font-weight: 100;
     color: white;
     vertical-align: middle;
     line-height: 1.5;
@@ -212,7 +225,7 @@ figcaption {
     font-family: Helvetica;
     font-size: 1em;
     text-align: left;
-    font-weight: 1;
+    font-weight: 100;
     color: white;
 }
 
@@ -294,9 +307,9 @@ small{
     }
 }
 /*Fullscreen mobile/Split view laptop*/
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     iframe{
-        width: 500px;
+        width: 455px;
     }
     .youngFrank{
     display: block;
@@ -306,11 +319,12 @@ small{
     p {
         margin-left: auto;
         margin-right: auto;
-        display:;
+        font-size: 2vw;
     }
-.content {
-    /*text-align: justify;*/
-    /*width: 600px;*/
+    label.logo{
+        margin-left: 1vw;
+    }
+    nav ul li a{ font-size: 2vw}
 }
 #FrankInfoHeading {
     margin-left: auto;
@@ -319,8 +333,6 @@ small{
 #AboutFrankOceanBox2 {
     display: block;
 }
-}
-
 
 .PhotoContainer {
     padding-right: 10%;

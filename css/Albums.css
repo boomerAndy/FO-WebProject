@@ -90,7 +90,7 @@ nav ul {
 }
 
 .active {
-    transition: .5 ease;
+    transition: .5s;
     color: #4dc1ff;
 }
 
@@ -182,7 +182,6 @@ p a:hover{
     #AboutFrankOcean{
         color: white;
     width: 100%;
-    max-width:%;
     height:auto;
     align-content: center;
     text-align: center;
@@ -196,7 +195,7 @@ p{
     font-family: Helvetica;
     font-size: 1.5vw;
     text-align: center;
-    font-weight: 1;
+    font-weight: 100;
     color: white;
     vertical-align: middle;
     line-height: 1.5;
@@ -236,7 +235,7 @@ figcaption {
     font-family: Helvetica;
     font-size: 1vw;
     text-align: center;
-    font-weight: 1;
+    font-weight: 100;
     color: white;
 }
 
@@ -355,7 +354,7 @@ small{
     padding-top: 5%;
 }
 
-#Spotify {
+#Spotify2 {
    display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -424,10 +423,6 @@ small{
     text-align: center;
 }
 
-#
-
-
-
 #FrankBGContainer5 {
         background: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),*/url(../AlbumsImages/oddf.jpg);
     background-repeat: no-repeat;
@@ -440,11 +435,25 @@ small{
     height: auto;
     border-top: 1px solid #4dc1ff;
 }
-
-
-
 .FinesseVid {
         margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
+#CaptionF {
+        font-family: Helvetica;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+
+#caption2 {
+        font-family: Helvetica;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+
+
