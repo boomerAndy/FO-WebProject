@@ -399,7 +399,7 @@ small{
 
 
 #FrankBGContainer4 {
-            background: linear-gradient(rgba(0, 0, 0.5, 0.5), rgba(0, 0, 0.5, 1)),url(../AlbumsImages/ThankyousByFrank.png);
+            background: linear-gradient(rgba(0, 0, 0.5, 0.5), rgba(0, 0, 0.5, 1)),url(../AlbumsImages/tumblrpost.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -424,7 +424,7 @@ small{
 }
 
 #FrankBGContainer5 {
-        background: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),*/url(../AlbumsImages/oddf.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../AlbumsImages/endlessimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -457,3 +457,8 @@ small{
 }
 
 
+
+.Staircase {
+    width: 100%;
+    max-width: 60%;
+}
