@@ -265,7 +265,7 @@ figcaption {
 
 .youngFrank {
         height: 600px;
-    vertical-align: middle;
+    margin: auto;
 }
 footer{
     font-family: Helvetica;
@@ -322,8 +322,7 @@ small{
         width: 455px;
     }
     .youngFrank{
-    display: block;
-    margin: 0 auto;
+    
         
     }
     p {
@@ -461,4 +460,9 @@ small{
 .Staircase {
     width: 100%;
     max-width: 60%;
+}
+
+figure {
+    margin-right: 12.5%;
+    margin-left: 12.5;
 }

@@ -446,6 +446,7 @@ small{
 }
 
 #ContactHead {
+    margin-top: 5%;
     margin-left: 12.5%;
     margin-right: 12.5%;
     text-align: center;
@@ -507,7 +508,8 @@ small{
 }
 
 #Submit {
-    
+    width: 100%;
+    max-width: 100%;
 }
 
 #form2 {
