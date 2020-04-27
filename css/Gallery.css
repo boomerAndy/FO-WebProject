@@ -11,29 +11,37 @@ html{
     font-family: 'Helvetica';
     src: url(../css/fonts/HelveticaNeuBold.ttf);
 }
-
 * {
-        margin: 0;
+    margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-
 body {
     font-weight: normal;
     font-size: 40px;
     font-size: large;
-  margin: 0;
-  font-family: Arial;
 }
-label.logo{
+label.logo {
     font-family: Blonde;
-    color: white;
-    font-size: 30px;
+    font-size: 1.5vw;
     line-height: 100px;
-    margin-left:  105px;
+    margin-left:  1vw;
     text-decoration: none;
+    color: white;
+}
+label.logo a{
+    transition: .5s;    
+    color: white;
+    
+}
+label.logo a:hover{
+    color: #4dc1ff;
+}
+label.logo:active{
+    transition: transform .5s ease;
+    transform: scale(.8);
 }
 
 nav ul li {
@@ -41,6 +49,7 @@ nav ul li {
     font-weight: 300;
       display: inline-block;
   line-height: 70px;
+    
 }
 /* Style the links inside the navigation bar */
 nav ul li a{
@@ -56,16 +65,16 @@ nav ul li a{
     padding-top: 16px;
     text-decoration:none;
     font-size: 25px;
+    transition: .5s;
 }
 /* Change the color of links on hover */
 nav ul li a:hover {
-    background-color: #333;/*#ddd*/
     color: #4dc1ff;
 }
 /* Add a color to the active/current link */ 
 nav ul li a:active {
-    background-color: #333;
-    color: #4dc1ff;
+    /*background-color: #333;*/
+    /*color: #4dc1ff;*/
     transition: transform .5s ease;
     transform: scale(.8);
 }
@@ -78,13 +87,14 @@ nav {
 
 nav ul {
     float: right;
-    margin-right: 85px;
+    margin-right: 1vw;
 }
 
 .active {
-    background-color: #4dc1ff;
-    color: #333;
+    transition: .5 ease;
+    color: #4dc1ff;
 }
+
 #LinkStyle {
     line-height: 70px;
     color: #4dc1ff;

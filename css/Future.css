@@ -385,7 +385,11 @@ small{
         padding-bottom: 2%;
 }
 
-
+.theOFCrew {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 .OldieVid {
     padding-left: 1%;
@@ -445,4 +449,8 @@ small{
     border-top: 1px solid #4dc1ff;
 }
 
-
+.FrankChillin {
+        margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
