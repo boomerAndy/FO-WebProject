@@ -107,7 +107,7 @@ nav ul {
 }
 
 #FrankBGContainer2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../AlbumsImages/oddf.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(../AlbumsImages/oddf.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -119,7 +119,7 @@ nav ul {
     border-top: 1px solid #4dc1ff;
 }
 #FrankBGContainer3 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../AlbumsImages/frankAfterNU.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(../AlbumsImages/frankAfterNU.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -234,8 +234,8 @@ iframe {
 
 figcaption {
     font-family: Helvetica;
-    font-size: 1em;
-    text-align: left;
+    font-size: 1vw;
+    text-align: center;
     font-weight: 1;
     color: white;
 }
@@ -380,7 +380,7 @@ small{
     /*height: 380px;*/
 }
 
-#NostalgiaContainer {
+#PhotosContainer {
         text-align:center;
         padding-bottom: 2%;
 }
@@ -408,7 +408,7 @@ small{
 
 
 #FrankBGContainer4 {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../AlbumsImages/frankAfterNU.jpg);
+            background: linear-gradient(rgba(0, 0, 0.5, 0.5), rgba(0, 0, 0.5, 1)),url(../AlbumsImages/ThankyousByFrank.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -421,11 +421,30 @@ small{
 }
 
 #JumpHeading {
-    
+            margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .JumpTo {
         margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+#
+
+
+
+#FrankBGContainer5 {
+                background: linear-gradient(rgba(0, 0, 0.5, 0.5), rgba(0, 0, 0.5, 1)),url(../AlbumsImages/endlessBlonde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 2px;
+    padding: 100px;
+    width: auto;
+    height: auto;
+    border-top: 1px solid #4dc1ff;
 }
